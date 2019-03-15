@@ -14,6 +14,8 @@ class AddTest(unittest.TestCase):
         self.assertEqual(add(113,4),117)
     def test_add3(self):
         self.assertEqual(add(123,4),127)
+    def test_add4(self):
+        self.assertEqual(add(123,4),127)
     #class
     def tearDown(self):
         pass
