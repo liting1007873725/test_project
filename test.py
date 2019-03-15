@@ -10,9 +10,9 @@ class AddTest(unittest.TestCase):
 
     def test_add1(self):
         self.assertEqual(add(13,4),17)
-    def test_add1(self):
+    def test_add2(self):
         self.assertEqual(add(113,4),117)
-    def test_add1(self):
+    def test_add3(self):
         self.assertEqual(add(123,4),127)
     #class
     def tearDown(self):
